@@ -44,4 +44,10 @@ To show the visible results you need to:
   $ python lanetracker.py --display
   ```
 
-A piece of result on our private dataset compared with the counterpart of the baseline method shows in `demo`.
+To calculate lane offset and show the result:
+
+```
+$ python demo/calc_offset.py
+```
+
+The trajectory of the vehicle will be saved in `demo/lane_offset_plot.png`. It's corresponding visible result on our private dataset compared with the counterpart of the baseline method shows in `demo/demo.avi`.
